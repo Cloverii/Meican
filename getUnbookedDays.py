@@ -139,7 +139,7 @@ def main():
         
         st = raw_input('startDate(included, "YYYYMMDD", equal to or later than the day you started work with DIDI):\n')
         ed = raw_input('endDate(included, "YYYYMMDD", earlier than today):\n')
-        st, ed = ['20180101', '20180121']
+        # st, ed = ['20180101', '20180121']
         
         # %Y-%m-%d
         st1 = time.strftime('%Y-%m-%d', time.strptime(st,'%Y%m%d'))
